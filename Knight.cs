@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-// Online Chess
-// author: Brady Sklenar
-// Networking Concepts and Admininstration
 namespace OnlineChess {
     class Knight : ChessPiece{
 
