@@ -1,0 +1,7 @@
+private String ReadMessage(){
+            Byte[] bytes = new Byte[256];
+            String data = null;
+            Int32 i = stream.Read(bytes, 0, bytes.Length);
+            data = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
+            return data;
+        }
